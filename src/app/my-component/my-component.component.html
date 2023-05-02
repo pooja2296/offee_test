@@ -1,0 +1,6 @@
+<app-search-component [data]="data" (itemClick)="onItemClick($event)">
+
+</app-search-component>
+    <div *ngIf="selectedItem">
+      <h2>{{ selectedItem.name }}</h2>
+    </div>
